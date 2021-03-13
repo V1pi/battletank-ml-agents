@@ -1,5 +1,5 @@
 behaviors:
-  Bomberman:
+  Tank:
     trainer_type: ppo
     hyperparameters:
       batch_size: 256
@@ -22,7 +22,7 @@ behaviors:
     keep_checkpoints: 5
     max_steps: 5000000
     time_horizon: 64
-    summary_freq: 5000
+    summary_freq: 4000
     threaded: true
     self_play:
       save_steps: 20000

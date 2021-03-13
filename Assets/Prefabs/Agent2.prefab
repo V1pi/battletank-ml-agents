@@ -553,7 +553,7 @@ MonoBehaviour:
   agentParameters:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
-  MaxStep: 500
+  MaxStep: 0
   velocityRotateY: 3
   velocityMovement: 10
   rateFire: 5
